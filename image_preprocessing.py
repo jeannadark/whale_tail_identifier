@@ -92,13 +92,13 @@ def datagens():
 
 def prepareImages(df, shape, path):
 
-    z_train = np.zeros((shape, 60, 60, 3))
+    z_train = np.zeros((shape, 40, 40, 3))
     count = 0
 
     for fig in df['Image']:
 
         #load images into images of size 100x100x3
-        img = image.load_img(path + fig, target_size=(60, 60, 3))
+        img = image.load_img(path + fig, target_size=(40, 40, 3))
         x = image.img_to_array(img)
         x = preprocess_input(x)
 

@@ -79,9 +79,10 @@ def train_valid_split(df):
     valid_revised = []
 
     for v in mapping.values():
-        cut = int(0.8*len(v)) # 80-20 split
+        cut = int(0.2*len(v)) # sample & 80-20 split
+        cut2 = int(0.25*len(v))
         tr = v[:cut]
-        val = v[cut:]
+        val = v[cut:cut2]
         train_revised.append(tr)
         valid_revised.append(val)
 
