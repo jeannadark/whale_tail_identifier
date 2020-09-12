@@ -34,7 +34,7 @@ from tensorflow.keras import layers
 # curwd = str(os.getcwd())
 # targetwd = '\\data\\train'
 # path_train = curwd + targetwd
-path_train = 'C:\\Users\\janizd\\Documents\\whale_identification\\whale_identification\\data\\train\\'
+path_train = '...s\\Documents\\whale_identification\\whale_identification\\data\\train\\'
 train = [os.path.join(path_train,f) for f in os.listdir(path_train) if f.endswith('.jpg')]
 
 
