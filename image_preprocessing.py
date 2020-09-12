@@ -38,7 +38,7 @@ from tensorflow.keras.applications.vgg16 import VGG16, preprocess_input
 train_labels = pd.read_csv("df_train.csv")
 
 
-# In[5]:
+
 
 
 train, valid = train_valid_split(train_labels)
