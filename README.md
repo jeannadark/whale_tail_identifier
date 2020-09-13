@@ -51,16 +51,19 @@ The curve below represents an almost exponential increase in model accuracy.
 
 ![GitHub Logo](https://github.com/njamalova/whale_tail_identifier/blob/develop/images/acc.PNG)
 
-## Conclusion
+## Conclusion & Further Improvements
 
+Based on the analysis above, it can be concluded that generating synthetic images helps to increase the prediction accuracy. Moreover, training for more epochs and on a larger subset of data can potentially generate even better results and help encompass all whale species. 
 
-
-
-## Further Improvements
-
+Regarding the "new_whale" category, it seems like either more data is needed to generate meaningful clusters or a separate and more robust image similarity algorithm within this category. 
 
 
 ## References
+
+1. https://www.kaggle.com/c/humpback-whale-identification
+2. https://photutils.readthedocs.io/en/stable/background.html
+3. https://www.kaggle.com/akhileshdkapse/foreground-extraction-opencv
+4. https://github.com/akTwelve/tutorials/blob/master/image_composition/BasicImageComposition.ipynb
 
 
 
