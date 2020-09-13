@@ -10,8 +10,8 @@ The original training dataset was submitted to Kaggle by HappyWhale. The data co
 
 Examples of different images pertaining to one whale type:
 
-![GitHub Logo](/whale1.png)
-![GitHub Logo](/whale2.png)
+![GitHub Logo](https://github.com/njamalova/whale_tail_identifier/blob/develop/images/whale1.PNG)
+![GitHub Logo](https://github.com/njamalova/whale_tail_identifier/blob/develop/images/whale2.PNG)
 
 ## Analysis
 
@@ -31,9 +31,9 @@ Synthetic data was generated for the rest of the underrepresented whale types by
 
 Examples of synthetically generated data:
 
-![GitHub Logo](/synth1.png)
-![GitHub Logo](/synth2.png)
-![GitHub Logo](/synth3.png)
+![GitHub Logo](https://github.com/njamalova/whale_tail_identifier/blob/develop/images/synth1.PNG)
+![GitHub Logo](https://github.com/njamalova/whale_tail_identifier/blob/develop/images/synth2.PNG)
+![GitHub Logo](https://github.com/njamalova/whale_tail_identifier/blob/develop/images/synth3.PNG)
 
 ### Image Preprocessing
 
@@ -49,10 +49,18 @@ A 9-layered convolutional neural network was used to train on the preprocessed d
 
 The curve below represents an almost exponential increase in model accuracy. 
 
-![GitHub Logo](/acc.png)
+![GitHub Logo](https://github.com/njamalova/whale_tail_identifier/blob/develop/images/acc.PNG)
 
 ## Conclusion
 
+
+
+
+## Further Improvements
+
+
+
+## References
 
 
 
